@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://kit.fontawesome.com/5ddce7fe6b.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); </style>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+
+   
+
+
+    <title>Document</title>
+   
+</head>
+<body>
+    <header>
+        <h2 class="logo">BigCity</h2>
+
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Informacion</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+
+            <button class="btn">Iniciar</button>
+        </nav>
+    </header>
+
+    <div class="fondo">
+        <span class="icono-cerrar"><i class="fa-solid fa-x"></i></span>
+    
+    <div class="contenedor-form login">
+        <h2>Iniciar sesion</h2>
+        <form action="#">
+            <div class="contenedor-input">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required>
+                <label for="#">Email</label>
+            </div>
+
+            <div class="contenedor-input">
+                <span class="icono"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" required>
+                <label for="#">contraseña</label>
+            </div>
+
+
+            <div class="recordar">
+                <label for="#"><input type="checkbox">Recordar sesión</label>
+                <a href="#">¿Olvido la contraseña</a>
+            </div>
+
+            <button type="submit" class="btn">Iniciar sesion</button>
+
+            <div class="registrar">
+                <p>¿No tiene cuenta? <a href="#" class="registrar-link">Registrarse</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="contenedor-form registrar">
+        <h2>Registrarse</h2>
+        <form action="#">
+            <div class="contenedor-input">
+                <span class="icono"><i class="fa-solid fa-user"></i></span>
+                <input type="text" required>
+                <label for="#">Nombre de Usuario</label>
+            </div>
+
+            <div class="contenedor-input">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required>
+                <label for="#">Email</label>
+            </div>
+
+            <div class="contenedor-input">
+                <span class="icono"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" required>
+                <label for="#">contraseña</label>
+            </div>
+
+            <div class="recordar">
+                <label for="#"> <input type="checkbox">Acepto los terminos y condiciones</label>
+            </div>
+
+            <button type="submit" class="btn">Registrarme</button>
+
+            <div class="registrar">
+                <p>¿Tienes una cuenta? <a href="#" class="login-link">Iniciar Sesion</a></p>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
